@@ -1,15 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Drey Larson | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drey Larson | Front-End Developer</title>
+  <meta
+    name="description"
+    content="Portfolio of Drey Larson, a front-end developer building clean, responsive websites and interactive user experiences."
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main style="font-family: Arial, sans-serif; max-width: 720px; margin: 60px auto; padding: 0 16px;">
-    <h1>Drey Larson</h1>
-    <p>Portfolio site under construction.</p>
-    <p>Contact: <a href="mailto:dreylarson@gmail.com">dreylarson@gmail.com</a></p>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo">Drey Larson</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Front-End Developer</p>
+        <h1>Clean, responsive websites with modern UI and thoughtful UX.</h1>
+        <p class="hero-text">
+          I build polished web experiences with HTML, CSS, JavaScript, and a focus
+          on usability, performance, and design clarity.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="mailto:dreylarson@gmail.com" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+          <h2>A developer focused on practical, polished front-end work.</h2>
+        </div>
+        <div class="about-card">
+          <p>
+            I’m Drey Larson, a web development student focused on front-end
+            development. I enjoy building responsive websites, interactive UI,
+            and projects that feel clean, modern, and intentional.
+          </p>
+          <p>
+            This portfolio is a growing collection of client-style sites,
+            JavaScript apps, and creative projects. More work is being added as I
+            continue building.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-content">
+              <p class="project-tag">Featured Project</p>
+              <h3>Financial Coaching Website</h3>
+              <p>
+                A clean, responsive website built for a financial coaching
+                business. Designed to present services clearly and establish a
+                professional online presence.
+              </p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">JavaScript / API</p>
+              <h3>Search App</h3>
+              <p>
+                A data-driven application that fetches and displays search results
+                from a public API with dynamic rendering, loading states, and user input handling.
+              </p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <p class="project-tag">Brand / Product Site</p>
+              <h3>SOTM Website</h3>
+              <p>
+                A promotional website concept for a horror game project, focused
+                on visual atmosphere, branding, and strong presentation.
+              </p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card placeholder">
+            <div class="project-content">
+              <p class="project-tag">Coming Soon</p>
+              <h3>More Projects on the Way</h3>
+              <p>
+                Additional client-style websites, front-end apps, and UI-focused
+                work will be added here soon.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect.</h2>
+        </div>
+
+        <div class="contact-card">
+          <p>
+            I’m currently building out my portfolio and open to front-end web
+            development opportunities.
+          </p>
+          <a class="contact-link" href="mailto:dreylarson@gmail.com">
+            dreylarson@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Drey Larson</p>
+      <p>Built with HTML and CSS</p>
+    </div>
+  </footer>
 </body>
 </html>
